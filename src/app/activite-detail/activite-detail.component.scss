@@ -1,0 +1,50 @@
+.photo1{
+    background: url('/assets/img/img22.jpg') no-repeat center;
+    height: 90vh;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.photo1 h2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color:yellowgreen;
+    font-size: 3rem;
+}
+
+section{
+    background-color: grey;
+}
+.right{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 60px auto;
+}
+@media screen and (min-width:760px){
+    .cartContact{
+        display: flex;
+        align-items: inherit;
+        max-width: 1200px;
+        margin: 30px auto;
+    }
+  
+    .right{
+        width: 35%;
+         display:flex; 
+    }
+    .right article{
+       
+        
+        align-self:center;
+    }
+   
+    .left{
+        width: 55%;
+        margin: auto;
+    }
+}

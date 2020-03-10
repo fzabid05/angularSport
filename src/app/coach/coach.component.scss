@@ -1,0 +1,30 @@
+
+section{
+    width: 90%;
+    margin: auto;
+}
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+.coach figure{
+    position: relative;
+    margin-bottom: 40px;
+}
+.coach a{
+    position: absolute !important ;
+    top: 100% !important ;
+    left:50% !important ;
+    background-color: rgba(0, 0, 0, 0.8)  ;
+    color: yellowgreen;
+    transform: translate(-50%, -50%) !important ;
+    padding: 20px !important ;
+    // border: 1px solid;
+    text-align: center;
+    transition: 0.3s linear;
+    border-radius: 5px;
+}
+.coach a:hover{
+    background-color: rgba(154, 205, 50,0.8);
+    color: black;
+}

@@ -1,0 +1,47 @@
+section{
+    width: 85%;
+    margin:50px auto;
+    text-align: center;
+}
+article{
+    text-align: justify;
+}
+section img{
+    width:80%;
+    margin: auto;
+}
+.photo1{
+    background: url('/assets/img/img18.jpg') no-repeat center;
+    height: 90vh;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.photo1 h2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color:yellowgreen;
+    font-size: 3rem;
+}
+// ----------- Desktop
+@media screen and (min-width:760px){
+    section.left , section.right{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    section.left {
+        flex-direction: row-reverse;
+    }
+    section img{
+        width:45%;
+        margin: auto;
+    }
+    article{
+        margin:auto 5%;
+    }
+}

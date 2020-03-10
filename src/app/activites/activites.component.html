@@ -1,0 +1,14 @@
+<!-- <div>
+    <ul class="list-group">
+        <li class="list-group-item bg bg-warning" *ngFor="let activite of activites" (click)="onSelect(activite)">catégorie {{activite.name}} </li>
+    </ul>
+   
+</div> -->
+<main class="container-fluid">
+    <section>
+        <div class="row justify-content-around rounded mt-4">
+            <a routerLink="/activite-detail/{{activite.id}}"  class="categorieBloc m-2 col-sm-10 col-md-4 col-lg-3" *ngFor="let activite of activites">{{activite.name | uppercase}} </a>
+        </div>
+    </section>
+    <!-- <app-activite-detail [activite]="selectedActivite"></app-activite-detail> -->
+</main>

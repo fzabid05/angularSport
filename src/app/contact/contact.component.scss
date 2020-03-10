@@ -1,0 +1,86 @@
+main{
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+.textContact{
+    width: 85%;
+    margin:50px auto;
+    text-align: justify;
+}
+li{
+    list-style: none;
+    line-height: 2.5rem;
+}
+section{
+    background-color: grey;
+}
+.right{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 60px auto;
+}
+.right ul{
+padding:50px 10px;
+}
+form{
+    padding: 60px ;
+}
+i{
+    color:yellowgreen;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+.transport i{
+    font-size: 2rem;
+    background-color: yellowgreen;
+    color:white;
+    padding: 15px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.transport i:hover, i:hover{
+    background-color:black;
+    color: white;
+}
+span{
+    color:yellowgreen;
+}
+.transport{
+    display: flex;
+    justify-content: space-evenly;
+}
+// ------------- desktop
+@media screen and (min-width:760px){
+    .textContact{
+        max-width: 1000px;
+        margin:50px auto;
+    }
+    .cartContact{
+        display: flex;
+        
+        align-items: inherit;
+        max-width: 1200px;
+        margin: 30px auto;
+    }
+    iframe{
+         width: 600px;
+        height: 450px;
+    }
+    .right{
+        width: 35%;
+        display: flex;
+    }
+    .right ul{
+        margin: auto;
+        align-self: center;
+        padding: initial;
+    }
+    form{
+        width: 55%;
+        margin: auto;
+    }
+   
+
+}

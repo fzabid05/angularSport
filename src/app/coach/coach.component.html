@@ -1,0 +1,10 @@
+<section class="coach mt-5" id="coach">
+    <h2 class=" m-5">Nos coachs</h2>
+    <p>"Nous sommes à votre service pour vous aider à atteindre vos objectifs !"</p>
+    <div class="row" >
+        <figure *ngFor="let coach of coachs" class="col-sm-10 mx-auto col-md-4 col-lg-3">
+            <img src="assets/img/img11.jpg" alt="">
+            <a routerLink="/detail-coach/{{coach.id}}">{{coach.name}}</a>
+        </figure>
+    </div>
+</section>

@@ -1,0 +1,19 @@
+nav{
+    height: 10vh;
+}
+nav .nav-link{
+    color:white;
+}
+nav .nav-link:hover{
+    color:plum;
+}
+nav img{
+    width: 100%;
+}
+nav a {
+    width: 80px;
+    color:white;
+}
+.nav-item.active .nav-link {
+    color:yellowgreen !important;
+}

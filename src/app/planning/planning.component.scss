@@ -1,0 +1,11 @@
+td{
+    vertical-align: middle;
+    //background-color: gray;
+}
+// Desktop
+@media screen and (min-width:760px){
+    table{
+       display: inline-table;
+    }
+
+}
